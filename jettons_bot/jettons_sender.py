@@ -22,7 +22,7 @@ interval_seconds = int(args.sec)
 db_path = f"jettons_bot/databases/giveaways.db"
 
 async def send_jettons(address, jetton_address, amount):
-  with open("lifeyt_ls_cfg.json") as cfg:
+  with open("ls_cfg.json") as cfg:
     cfg = load(cfg)
   
   client = LiteClient.from_config(
@@ -60,7 +60,7 @@ async def send_jettons(address, jetton_address, amount):
 
 
 async def send_ton(address, amount):
-  with open("lifeyt_ls_cfg.json") as cfg:
+  with open("ls_cfg.json") as cfg:
     cfg = load(cfg)
   
   client = LiteClient.from_config(
