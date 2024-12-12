@@ -1,7 +1,5 @@
 /__pycache__/
-*.session*
 /*.db/
-.env
+/.env/
 /*.log/
-jettons_bot/databases/*.db
-jettons_bot/lifeyt_ls_cfg.json
+/lifeyt_ls_cfg.json/
