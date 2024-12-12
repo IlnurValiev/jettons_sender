@@ -521,7 +521,7 @@ async def jetton_address(message: Message, state: fsm):
         return
 
     address = message.text
-    with open("jettons_bot/lifeyt_ls_cfg.json") as cfg:
+    with open("jettons_bot/ls_cfg.json") as cfg:
         cfg = load(cfg)
   
     client = LiteClient.from_config(
@@ -776,7 +776,7 @@ async def changing_jetton_address(message: Message, state: fsm):
         return
 
     address = message.text
-    with open("jettons_bot/lifeyt_ls_cfg.json") as cfg:
+    with open("jettons_bot/ls_cfg.json") as cfg:
         cfg = load(cfg)
   
     client = LiteClient.from_config(
