@@ -1,4 +1,4 @@
 jettons_bot/__pycache__/
 jettons_bot/databases/*.db
 .env
-jettons_bot/lifeyt_ls_cfg.json
+jettons_bot/ls_cfg.json
