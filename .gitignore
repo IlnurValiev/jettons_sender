@@ -1,5 +1,5 @@
 /__pycache__/
-/*.db/
-/.env/
+jettons_bot/databases/*.db
+.env
 /*.log/
 jettons_bot/lifeyt_ls_cfg.json/
