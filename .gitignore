@@ -1,0 +1,7 @@
+/__pycache__/
+*.session*
+/*.db/
+.env
+/*.log/
+databases/*.db
+lifeyt_ls_cfg.json
